@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.vertical-timeline-element-date:nth-child(odd) {
+	margin-left: 15px !important;
+}
+
+.vertical-timeline-element-date:nth-child(1n) {
+	margin-right: 15px !important;
+}

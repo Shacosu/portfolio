@@ -1,23 +1,15 @@
-import { useEffect } from "react";
-import { useState } from 'react';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App() {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    fetch('https://fakestoreapi.com/products')
-      .then(res => res.json())
-      .then(json => setProducts(json))
-  }, [])
   return (
-    <>
-      <h1>Products</h1>
-      <ul>
-        {products.map(product => (
-          <li key={product.id}>{product.title}</li>
-        ))}
-      </ul>
-    </>
-  )
+    <div className="dark:bg-black text-black dark:text-white flex flex-col justify-between h-screen">
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
