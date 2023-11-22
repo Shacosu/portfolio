@@ -1,19 +1,26 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
-const navigation = [
-  { name: 'Pablo-Espinoza.Js', href: '/portfolio', current: true },
-  { name: 'Sobre Mi', href: 'about', current: false },
-  { name: 'Proyectos', href: 'projects', current: false },
-  { name: 'Agendar Reunion', href: 'meetings', current: false },
-]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Header() {
+  const { t, i18n } = useTranslation("global");
+  const handleLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
+  const navigation = [
+    { name: 'Pablo-Espinoza.Js', href: '/portfolio', current: true },
+    { name: t("header.navbar.linkAbout"), href: 'about', current: false },
+    { name: t("header.navbar.linkProjects"), href: 'projects', current: false },
+    { name: t("header.navbar.linkMeet"), href: 'meetings', current: false },
+  ]
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -57,6 +64,10 @@ export default function Header() {
                     ))}
                   </div>
                 </div>
+              </div>
+              <div className="flex flex-1 justify-end">
+                <button onClick={() => handleLanguage("es")} className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">ES</button>
+                <button onClick={() => handleLanguage("en")} className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">EN</button>
               </div>
               {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"> */}
                 {/* <button

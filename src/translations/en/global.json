@@ -1,0 +1,40 @@
+{
+	"header": {
+		"navbar": {
+			"activeLink": "Pablo-Espinoza.js",
+			"linkAbout": "About Me",
+			"linkProjects": "Projects",
+			"linkMeet": "Schedule a Meeting"
+		}
+	},
+	"content": {
+		"subtitle": "Software Developer - Fullstack",
+		"profile": {
+			"title": "Profile",
+			"content": "Software developer with a degree in Computer Engineering, experienced in web application development, knowledgeable in REST API development, and passionate about staying abreast of emerging technologies.",
+			"more": "And other technologies..."
+		},
+		"contact": {
+			"title": "Contact Information",
+			"email": "Email: pespinozahernandez22@gmail.com",
+			"phone": "Phone: +56 9 4701 5035"
+		},
+		"skills": {
+			"title": "Technical Habilities"
+		},
+		"timeline": {
+			"title": "University of the Americas - (UDLA)",
+			"text": "I studied Computer Engineering at the University of the Americas, where I learned to develop web applications."
+		},
+		"secondTimeline": {
+			"title": "Software Developer",
+			"text": "I worked at an e-commerce company as a software developer, where I faced and overcame many challenges."
+		},
+		"thirdTimeline": {
+			"title": "Software Developer - Fullstack",
+			"subtitle": "Coming Soon...",
+			"text": "Seeking my next professional challenge as a software developer.",
+			"date": "2021 - Present"
+		}
+	}
+}

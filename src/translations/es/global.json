@@ -1,0 +1,40 @@
+{
+	"header": {
+		"navbar": {
+			"activeLink": "Pablo-Espinoza.js",
+			"linkAbout": "Sobre Mi",
+			"linkProjects": "Proyectos",
+			"linkMeet": "Agendar una Reunión"
+		}
+	},
+	"content": {
+		"subtitle": "Desarrollador de Software - Fullstack",
+		"profile": {
+			"title": "Perfil",
+			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST, y apasionado por mantenerse al tanto de las tecnologías emergentes.",
+			"more": "Y otras tecnologías..."
+		},
+		"contact": {
+			"title": "Información de Contacto",
+			"email": "Correo Electrónico: pespinozahernandez22@gmail.com",
+			"phone": "Teléfono: +56 9 4701 5035"
+		},
+		"skills": {
+			"title": "Habilidades Técnicas"
+		},
+		"timeline": {
+			"title": "Universidad de las americas - (UDLA)",
+			"text": "Estudié Ingeniería en Informática en la Universidad de las Américas, donde aprendí a desarrollar aplicaciones web."
+		},
+		"secondTimeline": {
+			"title": "Desarrollador de Software",
+			"text": "Trabajé en una empresa dedicada al comercio electrónico como desarrollador de software, donde enfrenté y superé muchos desafíos."
+		},
+		"thirdTimeline": {
+			"title": "Desarrollador de Software - Fullstack",
+			"subtitle": "Proximamente...",
+			"text": "En busca de mi próximo desafío laboral como desarrollador de software.",
+			"date": "2021 - Actualidad"
+		}
+	}
+}
