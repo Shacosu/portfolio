@@ -15,7 +15,6 @@ import {
 	SQLIcon,
 } from "../assets/icons";
 import { Link } from "react-router-dom";
-
 import { useTranslation } from "react-i18next";
 
 function MainContent() {
@@ -24,7 +23,7 @@ function MainContent() {
 	return (
 		<main className="container mx-auto py-5 px-4">
 			<div className="mb-8">
-				<h1 className="text-4xl font-bold text-white text-center">
+				<h1 className="text-4xl font-bold text-white text-center mb-2">
 					Pablo Andres Espinoza Hernandez
 				</h1>
 				<p className="text-lg text-gray-600 text-center">
@@ -39,26 +38,28 @@ function MainContent() {
 								{t("content.profile.content")}
 						</p>
 					</div>
-					<div>
+					<div className="rounded ">
 						<h2 className="text-xl font-bold text-white">{t("content.contact.title")}</h2>
-						<p className="text-base text-gray-400 text-justify">
-							<ul>
+						
+							<ul className="space-y-1 text-base text-gray-400">
 								<li>{t("content.contact.email")}</li>
 								<li>{t("content.contact.phone")}</li>
-								<li>
-									LinkedIn:{" "}
-									<a
-										href="https://www.linkedin.com/in/pablojs/"
-										className="text-blue-500"
-									>
-										https://www.linkedin.com/in/pablojs/
-									</a>
-								</li>
-								<li>
-									Github: <a href="https://github.com/Shacosu" target="_blank" rel="noreferrer" className="text-blue-500">Shacosu</a>
-								</li>
+									<li>
+										LinkedIn:{" "}
+										<Link
+											to="https://www.linkedin.com/in/pablojs/"
+											target="_blank"
+											rel="noreferrer"
+											className="text-blue-500"
+										>
+											https://www.linkedin.com/in/pablojs/
+										</Link>
+									</li>
+									<li>
+										Github: <Link to="https://github.com/Shacosu" target="_blank" rel="noreferrer" className="text-blue-500">Shacosu</Link>
+									</li>
 							</ul>
-						</p>
+						
 					
 					</div>
 					<div className="mt-4">

@@ -1,7 +1,7 @@
 {
 	"header": {
 		"navbar": {
-			"activeLink": "Pablo-Espinoza.js",
+			"activeLink": "Inicio",
 			"linkAbout": "Sobre Mi",
 			"linkProjects": "Proyectos",
 			"linkMeet": "Agendar una Reunión"
@@ -10,13 +10,13 @@
 	"content": {
 		"subtitle": "Desarrollador de Software - Fullstack",
 		"profile": {
-			"title": "Perfil",
-			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST, y apasionado por mantenerse al tanto de las tecnologías emergentes.",
+			"title": "Informacion de Perfil",
+			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST y apasionado por crear soluciones eficientes y escalables. Busca continuamente mejorar sus habilidades a través del aprendizaje constante y proyectos prácticos.",
 			"more": "Y otras tecnologías..."
 		},
 		"contact": {
 			"title": "Información de Contacto",
-			"email": "Correo Electrónico: pespinozahernandez22@gmail.com",
+			"email": "Correo: pespinozahernandez22@gmail.com",
 			"phone": "Teléfono: +56 9 4701 5035"
 		},
 		"skills": {
@@ -36,5 +36,19 @@
 			"text": "En busca de mi próximo desafío laboral como desarrollador de software.",
 			"date": "2021 - Actualidad"
 		}
+	},
+	"projects": {
+		"project-01": {
+			"title": "KrapyGames",
+			"description": "Explora una amplia selección de títulos y encuentra información detallada sobre precios, características y requisitos del sistema. ¡Únete a nuestra comunidad de jugadores apasionados y adéntrate en el emocionante mundo de los videojuegos en Krapygames!"
+		},
+		"project-02": {
+			"title": "Erp-Carworkshop",
+			"description": "Erp-Carworkshop es un sistema de gestión empresarial para talleres mecánicos. Permite llevar el control de inventario, clientes, proveedores, empleados, facturación, compras, ventas, etc."
+		}
+	},
+	"privacy": {
+		"private": "Este proyecto es privado",
+		"public": "Haz clic para ver el proyecto completo"
 	}
 }
