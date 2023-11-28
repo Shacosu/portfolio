@@ -8,6 +8,7 @@
 - **Bibliotecas y Frameworks:** React, Next.js
 - **Base de Datos:** SQL
 - **Servicios en la Nube:** AWS
+- - **Entre otros...**
 
 ## Experiencia Laboral
 
