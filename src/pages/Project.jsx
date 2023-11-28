@@ -22,10 +22,18 @@ export default function Project() {
 			technologies: ["Nextjs", "Bootstrap", "Postgresql"],
 			isPrivate: true,
 		},
+		{
+			id: 2,
+			title: t("projects.project-03.title"),
+			description: t("projects.project-03.description"),
+			image: "Book-Watcher.webp",
+			technologies: ["Nodejs", "Prisma", "Postgresql", "Render"],
+			isPrivate: true,
+		},
 	];
 	return (
 		<div className="container mx-auto h-full my-8">
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-2 place-items-center text-sm">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-2 place-items-center text-sm ">
 				{projectList.map(
 					({
 						id,
@@ -49,9 +57,9 @@ export default function Project() {
 								alt={title}
 								title={title}
 								effect="blur"
-								className="w-full min-h-64 object-scale-down border-b"
+								className="min-h-64 px-4 h-48 mx-auto object-cover rounded mt-2"
 							/>
-							<div className="px-2 py-2">
+							<div className="px-2 py-2 mt-auto">
 								<p className="text-gray-400 text-justify line-clamp-4">
 									{description}
 								</p>

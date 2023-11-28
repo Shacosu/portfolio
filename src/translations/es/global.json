@@ -11,7 +11,7 @@
 		"subtitle": "Desarrollador de Software - Fullstack",
 		"profile": {
 			"title": "Informacion de Perfil",
-			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST y apasionado por crear soluciones eficientes y escalables. Busca continuamente mejorar sus habilidades a través del aprendizaje constante y proyectos prácticos.",
+			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST y apasionado por crear soluciones eficientes y escalables.",
 			"more": "Y otras tecnologías..."
 		},
 		"contact": {
@@ -34,7 +34,7 @@
 			"title": "Desarrollador de Software - Fullstack",
 			"subtitle": "Proximamente...",
 			"text": "En busca de mi próximo desafío laboral como desarrollador de software.",
-			"date": "2021 - Actualidad"
+			"date": "2023 - Actualidad"
 		}
 	},
 	"projects": {
@@ -45,6 +45,10 @@
 		"project-02": {
 			"title": "Erp-Carworkshop",
 			"description": "Erp-Carworkshop es un sistema de gestión empresarial para talleres mecánicos. Permite llevar el control de inventario, clientes, proveedores, empleados, facturación, compras, ventas, etc."
+		},
+		"project-03": {
+			"title": "Book Watcher",
+			"description": "Book Watcher es una aplicación web que permite a los usuarios buscar libros y agregarlos a una lista de deseos. Los usuarios pueden ver los detalles de cada libro y agregarlos a su lista de deseos."
 		}
 	},
 	"privacy": {

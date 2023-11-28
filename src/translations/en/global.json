@@ -34,7 +34,7 @@
 			"title": "Software Developer - Fullstack",
 			"subtitle": "Coming Soon...",
 			"text": "Seeking my next professional challenge as a software developer.",
-			"date": "2021 - Present"
+			"date": "2023 - Present"
 		}
 	},
 	"projects": {
@@ -45,6 +45,10 @@
 		"project-02": {
 			"title": "Erp-Carworkshop",
 			"description": "Erp-Carworkshop is an enterprise resource planning (ERP) system for automotive workshops. It allows for inventory management, customer tracking, supplier management, employee oversight, invoicing, purchasing, sales, and more."
+		},
+		"project-03": {
+			"title": "Book Watcher",
+			"description": "Book Watcher is a web application that allows you to search for books and add them to your reading list. It also allows you to create an account and save your reading list in the cloud."
 		}
 	},
 	"privacy": {

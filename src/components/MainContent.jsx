@@ -21,8 +21,8 @@ function MainContent() {
 	const { t } = useTranslation("global");
 
 	return (
-		<main className="container mx-auto py-5 px-4">
-			<div className="mb-8">
+		<main className="container mx-auto px-4">
+			<div className="mb-2">
 				<h1 className="text-4xl font-bold text-white text-center mb-2">
 					Pablo Andres Espinoza Hernandez
 				</h1>
@@ -94,7 +94,7 @@ function MainContent() {
 									<p className="text-lg text-gray-400 text-justify">AWS</p>
 								</div>
 							</div>
-							<Link to="about" className="text-gray-300 float-right mt-3 italic border-b cursor-pointer">
+							<Link to="meetings" className="text-gray-300 float-right mt-3 italic border-b cursor-pointer">
 								{t("content.profile.more")}
 							</Link>
 						</div>
