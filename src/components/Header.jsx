@@ -17,10 +17,10 @@ export default function Header() {
 	const { pathname } = useLocation();
 
 	const navigation = [
-		{ name: t("header.navbar.activeLink"), href: "/portfolio", current: pathname === "/portfolio" },
+		{ name: t("header.navbar.activeLink"), href: "/", current: pathname === "/"  },
 		// { name: t("header.navbar.linkAbout"), href: 'about', current: false },
-		{ name: t("header.navbar.linkProjects"), href: "projects", current: pathname === "/portfolio/projects" },
-		{ name: t("header.navbar.linkMeet"), href: "meetings", current: pathname === "/portfolio/meetings" },
+		{ name: t("header.navbar.linkProjects"), href: "projects", current: pathname === "/projects" },
+		{ name: t("header.navbar.linkMeet"), href: "meetings", current: pathname === "/meetings" },
 	];
 	return (
 		<Disclosure as="nav" className="bg-gray-800">

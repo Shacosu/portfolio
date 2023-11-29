@@ -32,7 +32,7 @@ i18next.init({
 
 const router = createBrowserRouter([
 	{
-		path: "/portfolio",
+		path: "/",
 		element: <MainLayout />,
 		children: [
 			{ path: "", element: <MainContent /> },
