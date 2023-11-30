@@ -7,12 +7,15 @@ import "react-vertical-timeline-component/style.min.css";
 import {
 	AWSIcon,
 	AcademicIcon,
+	ExpressIcon,
 	JavascriptIcon,
 	NextjsIcon,
 	NodeIcon,
+	PuppeteerIcon,
 	ReactIcon,
 	RocketIcon,
 	SQLIcon,
+	TailwindCssIcon,
 } from "../assets/icons";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -58,40 +61,55 @@ function MainContent() {
 									<li>
 										Github: <Link to="https://github.com/Shacosu" target="_blank" rel="noreferrer" className="text-blue-500">Shacosu</Link>
 									</li>
+									<li>
+										CV: <a href="/CV.pdf" className="text-blue-500" download>{t("content.contact.resume")}</a>
+									</li>
 							</ul>
 						
 					
 					</div>
 					<div className="mt-4">
 							<h2 className="text-xl font-bold text-white">{t("content.skills.title")}</h2>
-							<div className="grid grid-cols-3 gap-12 pt-4">
-								<div className="flex gap-x-2">
+							<div className="grid grid-cols-3 gap-8 pt-4">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<JavascriptIcon />
-									<p className="text-lg text-gray-400 text-justify">
+									<p className="text-sm text-gray-300 font-semibold ">
 										Javascript
 									</p>
 								</div>
-								<div className="flex gap-x-2">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<ReactIcon />
-									<p className="text-lg text-gray-400 text-justify">React</p>
+									<p className="text-sm text-gray-300 font-semibold text-justify">React</p>
 								</div>
-								<div className="flex gap-x-2">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<NodeIcon />
-									<p className="text-lg text-gray-400 text-justify">Node</p>
+									<p className="text-sm text-gray-300 font-semibold text-justify">Node</p>
 								</div>
-								<div className="flex gap-x-2">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<NextjsIcon />
-									<p className="text-lg text-gray-400 text-justify">NextJs</p>
+									<p className="text-sm text-gray-300 font-semibold text-justify">NextJs</p>
 								</div>
-								<div className="flex gap-x-2">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<SQLIcon className="" />
-									<p className="text-lg text-gray-400 text-justify">
-										MSSQL/MYSQL
+									<p className="text-sm text-gray-300 font-semibold text-justify">
+										SQL
 									</p>
 								</div>
-								<div className="flex gap-x-2">
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
 									<AWSIcon className="" />
-									<p className="text-lg text-gray-400 text-justify">AWS</p>
+									<p className="text-sm text-gray-300 font-semibold text-justify">AWS</p>
+								</div>
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
+									<PuppeteerIcon className="" />
+									<p className="text-sm text-gray-300 font-semibold text-justify">Puppeteer</p>
+								</div>
+								<div className="flex flex-col items-center bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
+									<ExpressIcon className="" />
+									<p className="text-sm text-gray-300 font-semibold text-justify">ExpressJs</p>
+								</div>
+								<div className="flex flex-col items-center gap-x-2 bg-gray-800 hover:bg-gray-700 cursor-pointer py-1 rounded justify-center">
+									<TailwindCssIcon className="" />
+									<p className="text-sm text-gray-300 font-semibold text-justify">Tailwindcss</p>
 								</div>
 							</div>
 							<Link to="meetings" className="text-gray-300 float-right mt-3 italic border-b cursor-pointer">
