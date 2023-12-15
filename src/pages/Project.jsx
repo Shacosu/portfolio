@@ -18,7 +18,7 @@ export default function Project() {
 			id: 2,
 			title: t("projects.project-02.title"),
 			description: t("projects.project-02.description"),
-			image: "car-workshop.webp",
+			image: "erp-carworkshop.png",
 			technologies: ["Nextjs", "Bootstrap", "Postgresql"],
 			isPrivate: true,
 		},
