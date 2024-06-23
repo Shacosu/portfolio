@@ -35,13 +35,13 @@
 			"title": "Software Developer - Fullstack",
 			"subtitle": "Coming Soon...",
 			"text": "Seeking my next professional challenge as a software developer.",
-			"date": "2023 - Present"
+			"date": "2024 - Present"
 		}
 	},
 	"projects": {
 		"project-01": {
-			"title": "KrapyGames",
-			"description": "Explore a wide selection of titles and find detailed information on prices, features, and system requirements. Join our community of passionate gamers and delve into the exciting world of video games at Krapygames!"
+			"title": "Marketfly",
+			"description": "MarketFly, your trusted store, sale and installation of air conditioning, air conditioning equipment, air conditioning maintenance, sale of air conditioning, Chile, Santiago"
 		},
 		"project-02": {
 			"title": "Erp-Carworkshop",
@@ -50,6 +50,10 @@
 		"project-03": {
 			"title": "Book Watcher",
 			"description": "Book Watcher is a web application that allows you to search for books and add them to your reading list. It also allows you to create an account and save your reading list in the cloud."
+		},
+		"project-04": {
+			"title": "KrapyGames",
+			"description": "Explore a wide selection of titles and find detailed information on prices, features, and system requirements. Join our community of passionate gamers and delve into the exciting world of video games at Krapygames!"
 		}
 	},
 	"privacy": {

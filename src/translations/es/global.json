@@ -11,7 +11,7 @@
 		"subtitle": "Desarrollador de Software - Fullstack",
 		"profile": {
 			"title": "Informacion de Perfil",
-			"content": "Desarrollador de software con título en Ingeniería en Ejecución Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST y apasionado por crear soluciones eficientes y escalables.",
+			"content": "Desarrollador de software con Título en Ingeniería de Ejecución en Informática, con experiencia en el desarrollo de aplicaciones web, conocimientos en el desarrollo de API REST y apasionado por crear soluciones eficientes y escalables.",
 			"more": "Y otras tecnologías..."
 		},
 		"contact": {
@@ -35,13 +35,13 @@
 			"title": "Desarrollador de Software - Fullstack",
 			"subtitle": "Proximamente...",
 			"text": "En busca de mi próximo desafío laboral como desarrollador de software.",
-			"date": "2023 - Actualidad"
+			"date": "2024 - Actualidad"
 		}
 	},
 	"projects": {
 		"project-01": {
-			"title": "KrapyGames",
-			"description": "Explora una amplia selección de títulos y encuentra información detallada sobre precios, características y requisitos del sistema. ¡Únete a nuestra comunidad de jugadores apasionados y adéntrate en el emocionante mundo de los videojuegos en Krapygames!"
+			"title": "Marketfly",
+			"description": "MarketFly, tu tienda de confianza, venta e instalacion de aire acondicionado, equipos de aire acondicionado, mantencion aire acondicionado, Venta de aire acondicionado, Chile, Santiago"
 		},
 		"project-02": {
 			"title": "Erp-Carworkshop",
@@ -50,6 +50,10 @@
 		"project-03": {
 			"title": "Book Watcher",
 			"description": "Book Watcher es una aplicación web que permite a los usuarios buscar libros y agregarlos a una lista de deseos. Los usuarios pueden ver los detalles de cada libro y agregarlos a su lista de deseos."
+		},
+		"project-04": {
+			"title": "KrapyGames",
+			"description": "Explora una amplia selección de títulos y encuentra información detallada sobre precios, características y requisitos del sistema. ¡Únete a nuestra comunidad de jugadores apasionados y adéntrate en el emocionante mundo de los videojuegos en Krapygames!"
 		}
 	},
 	"privacy": {
